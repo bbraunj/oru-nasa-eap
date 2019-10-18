@@ -10,6 +10,8 @@ Then, enter the following into the dialog:
 
 When adding files and changes to Git, the current setup will require you to enter your GitHub username and password every time you want to push those changes to the internet. To avoid this, we will follow these steps:
 
+## Setting Up Your Computer to Automatically Authenticate with GitHub
+
 1. Open Git BASH. This was installed in the first step.
 2. Run the following command, replacing the email address with the one used for your GitHub account:
 ```
