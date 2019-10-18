@@ -1,5 +1,3 @@
-# oru-nasa-eap
-
 # How to Connect Simulink to this Git Repository
 
 If on Windows, first get https://msysgit.github.io/. Default settings on the installer should be fine. Make sure you select Git BASH instead of Git GUI or Shell Integration.
