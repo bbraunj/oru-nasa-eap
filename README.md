@@ -68,3 +68,11 @@ Now you should be able to push changes to the server without typing in your user
 <img width="825" alt="Screen Shot 2019-10-18 at 5 14 36 PM" src="https://user-images.githubusercontent.com/3528169/67131612-f6ee2200-f1ca-11e9-801c-b64e6227e216.png">
 
 Your changes should now be on GitHub!
+
+# Getting Updates from the Server
+If your local copy of the Git repository is behind the GitHub copy, you will want to pull those changes down to your computer. To do this, simply click the <img width="50" alt="Screen Shot 2019-10-18 at 5 26 23 PM" src="https://user-images.githubusercontent.com/3528169/67131953-6fa1ae00-f1cc-11e9-9be5-b806a37e1eb6.png"> button in the source control menu.
+
+Let's say you and someone else both have a certain copy of `oru-nasa-eap` on your computers. The other person makes changes to a file and pushes those to the server. If you make changes to the same file and try to pull changes from the server, you will encounter the following error message:
+<img width="547" alt="Screen Shot 2019-10-18 at 5 31 09 PM" src="https://user-images.githubusercontent.com/3528169/67132160-5ea56c80-f1cd-11e9-9fce-2b9be91d2eec.png">
+
+In this case, contact @bbraunj and he can help you figure this out.
