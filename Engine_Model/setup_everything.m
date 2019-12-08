@@ -10,6 +10,6 @@ clear MWS
 Input.UseExcel = 1;
 Input.LoadBus = 1;
 % Input.ICPoint = 'auto';
-AGTF30.setup_simulation(Input);
+ORU_GTF.setup_simulation(Input);
 
 clear Input;

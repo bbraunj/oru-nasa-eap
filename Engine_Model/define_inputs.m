@@ -5,7 +5,7 @@ function MWS = define_inputs(MWS,inputs)
 % NASA Glenn Research Center, Cleveland, OH
 % Aug 15th, 2016
 %
-% This file contains the user defined inputs for AGTF30 simulation
+% This file contains the user defined inputs for ORU_GTF simulation
 % *************************************************************************
 
 MWS.In.Ts = 0.015;
@@ -16,7 +16,7 @@ MWS.In.Ts = 0.015;
 % script many times it is recommended to turn this feature off.
 if isfield(inputs,'UseExcel')
     if inputs.UseExcel == 1
-        inputs = AGTF30.InputsFromXLSX('define_inputs.xlsx', inputs);
+        inputs = ORU_GTF.InputsFromXLSX('define_inputs.xlsx', inputs);
         fprintf('Inputs gathered from define_inputs.xlsx\n')
     else
         inputs.UseExcel = 0;

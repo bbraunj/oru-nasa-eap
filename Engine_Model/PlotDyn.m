@@ -1,5 +1,5 @@
 % plot using the TMATS TD plot function
-TMATS.TDplot('AGTF30SysDyn')
+TMATS.TDplot('ORU_GTF_Dyn')
 
 % ---------------------------------------------------------------
 % plot remaining itemts that do not appear with the TDplot command

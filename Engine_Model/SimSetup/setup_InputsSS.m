@@ -141,7 +141,7 @@ switch(MWS.In.ICPoint)
         MWS.In.dTambIC = MWS.In.dT(1,1);
         
         % gather start points for Alt and MN
-        [cond,MWS.In.AltIC,MWS.In.MNIC,MWS.In.dTambIC] = AGTF30.inEnvelope(MWS);
+        [cond,MWS.In.AltIC,MWS.In.MNIC,MWS.In.dTambIC] = ORU_GTF.inEnvelope(MWS);
         Alt = MWS.In.AltIC;
         MN  = MWS.In.MNIC;
         dT = MWS.In.dTambIC;
@@ -255,9 +255,9 @@ switch(MWS.In.ICPoint)
         cd(MWS.top_level)
         assignin('base', 'MWS',MWS);
         fprintf(['Generating ICs with steady-state solver...\n']);
-        sim('AGTF30SysSS.mdl');
-        close_system('AGTF30SysSS.mdl');
-        close_system('AGTF30_eng.mdl');
+        sim('ORU_GTF_SS.slx');
+        close_system('ORU_GTF_SS.slx');
+        close_system('ORU_GTF_eng.slx');
         fprintf(['IC generation complete\n']);
         
         SSconv = out_SS.converged.Data(end);
